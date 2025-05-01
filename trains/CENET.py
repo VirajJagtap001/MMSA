@@ -55,7 +55,7 @@ class CENET:
         best_valid = float('inf') if self.args['KeyEval']=='Loss' else -float('inf')
         best_epoch, epoch = 0, 0
 
-        while True:
+        while epoch < self.args['num_epochs']:
             epoch += 1
             model.train()
             total_loss = 0.0

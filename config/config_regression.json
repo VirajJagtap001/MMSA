@@ -1592,7 +1592,8 @@
       "need_normalized": false,
       "use_bert": false,
       "use_finetune": true,
-      "early_stop": 8
+      "early_stop": 8,
+      "num_epochs": 20
     },
     "datasetParams": {
       "mosi": {
